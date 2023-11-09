@@ -4,6 +4,8 @@
 set -o pipefail
 set -eu
 
+exit 0
+
 ofborg=$(curl \
              -L -H "Content-Type: application/json" \
              https://hydra.nixos.org/job/ofborg/release/ofborg.rs.aarch64-linux/latest \
